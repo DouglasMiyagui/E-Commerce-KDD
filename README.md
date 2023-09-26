@@ -2,6 +2,25 @@
 
 Este projeto de Data Science, intitulado "E-Commerce-KDD", representa uma abordagem abrangente e estruturada para a análise de dados em um contexto de comércio eletrônico. Organizado em uma série de notebooks, cada etapa foi projetada para conduzir uma investigação detalhada dos dados, desde o pré-processamento inicial até a tomada de decisões orientadas por dados.
 
+## Dataset do Projeto
+
+### Brazilian E-Commerce Public Dataset by Olist
+
+O Conjunto de Dados Públicos de E-Commerce Brasileiro da Olist é a fonte de dados principal deste projeto. Esse conjunto de dados público contém informações sobre pedidos feitos na loja Olist, cobrindo um período de 2016 a 2018 e abrangendo vários marketplaces no Brasil. Ele fornece uma visão abrangente de cada pedido, incluindo detalhes sobre preço, método de pagamento, desempenho de frete, localização do cliente, atributos do produto e até avaliações escritas pelos clientes.
+
+É importante notar que esses dados são reais, embora tenham sido anonimizados para proteger a privacidade das partes envolvidas. Além disso, para garantir a confidencialidade, as referências às empresas e parceiros nos textos das avaliações foram substituídas pelos nomes das grandes casas da série Game of Thrones.
+
+### Fonte dos Dados
+
+Os dados originais podem ser encontrados no Kaggle, no seguinte link:
+[Dataset Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_order_items_dataset.csv)
+
+## Dataset Unificado "relatório_vendas"
+
+Após a aquisição dos dados do Conjunto de Dados Públicos de E-Commerce Brasileiro da Olist, foi realizado uma série de etapas de pré-processamento para garantir que os dados estivessem limpos, organizados e prontos para análise.  Uma etapa crucial desse processo de pré-processamento foi a junção dos vários arquivos de dados relacionados a itens_pedidos, pedidos, pagamentos, produtos, clientes, vendedores e avaliações em um único conjunto de dados centralizado intitulado "relatorio_vendas". Com isso permitirá ter uma visão holística e coesa de todas as informações relevantes para nossa análise de comércio eletrônico.
+
+O "relatorio_vendas" se tornou a base das análises subsequentes para extrair insights significativos e tomar decisões orientadas por dados que podem beneficiar a organização.
+
 ## Etapas do Projeto
 
 **1 - Pré-Processamento:** Inicialmente, abordaremos o notebook de pré-processamento. Esta etapa é essencial, pois estabelece as bases para toda a análise subsequente. Será realizado o processo de limpeza de dados, tratamento de valores ausentes, codificação de variáveis categóricas e normalização dos dados, assegurando que o conjunto de dados esteja preparado e de alta qualidade para análises subsequentes. O objetivo é criar um ambiente de dados confiável e consistente para explorar e modelar.
